@@ -2,8 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'AI Chat Assistant',
-  description: 'AI-powered assistant — embed on any website with one line of code.',
+  title: 'AI Chat Assistant | EdgeOne Makers',
+  description: 'AI-powered assistant — embed on any website with one line of code. · Demo only · EdgeOne Makers',
+  keywords: "EdgeOne Makers, Demo only",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
